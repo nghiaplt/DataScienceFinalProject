@@ -45,7 +45,6 @@
 /dtdd/realme-5-pro-8gb
 /dtdd/blackberry-keyone-3gb-32gb
 /dtdd/blackberry-evolve
-/dtdd/vivo-s1-pro
 /dtdd/huawei-p30-lite
 /dtdd/xiaomi-redmi-note-8-pro-6gb-128gb
 /dtdd/xiaomi-redmi-note-8-pro-6gb-128gb-xanh-duong
