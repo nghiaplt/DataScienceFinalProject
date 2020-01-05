@@ -35,8 +35,8 @@ f = open(fileout,"a")
 while len(lines) > 0:
     clear()
     line = lines[0][:-1]
-    lines.pop(0)
     print("default: " + str(default_value) + '\n' + str(map) + " space to remove. '`' to stop." +'\n')
+    print("remain: " + str(len(lines)))
     print(line)
     a = input()
     if len(a) == 0:
@@ -59,6 +59,7 @@ while len(lines) > 0:
         print("ERROR")
         f.close()
         exit()
+    lines.pop(0)
 
 f.close()
 
