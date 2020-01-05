@@ -4,13 +4,13 @@ filecache = "cached_" + filename
 default_label = "happy"
 #### CHANGE ABOVE #####
 
-from os import system, name 
+from os import system, name
 import pandas as pd
-def clear(): 
-    if name == 'nt': 
-        _ = system('cls') 
-    else: 
-        _ = system('clear') 
+def clear():
+    if name == 'nt':
+        _ = system('cls')
+    else:
+        _ = system('clear')
 
 
 map = {}
@@ -42,13 +42,13 @@ while len(lines) > 0:
     if len(a) == 0:
         val.append(line)
         label.append(default_value)
-        f.write('{},{},\n'.format(line, default_value))
+        f.write('{}\t{}\t\n'.format(line, default_value))
     elif a == " ":
         pass
     elif "0" <= a <= "3":
         val.append(line)
         label.append(int(a))
-        f.write('{},{},\n'.format(line, int(a)))
+        f.write('{}\t{}\t\n'.format(line, int(a)))
     elif a == '`':
         f.close()
         f = open(filecache, "w")
@@ -61,5 +61,5 @@ while len(lines) > 0:
         exit()
 
 f.close()
-    
+
 
