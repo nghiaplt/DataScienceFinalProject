@@ -56,7 +56,9 @@ while len(lines) > 0:
         f.close()
         exit()
     else:
-        print("ERROR")
+        f.close()
+        f = open(filecache, "w")
+        f.writelines(lines)
         f.close()
         exit()
     lines.pop(0)
