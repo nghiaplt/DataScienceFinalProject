@@ -17,7 +17,7 @@ map = {}
 map["neutral"] = 0
 map["happy"] = 1
 map["angry"] = 2
-map["sad"] = 4
+map["sad"] = 3
 
 default_value = map[default_label]
 print("If lần đầu xài thì nhớ thêm header vào file csv")
