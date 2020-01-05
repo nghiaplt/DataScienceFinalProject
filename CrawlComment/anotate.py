@@ -5,7 +5,6 @@ default_label = "angry"
 #### CHANGE ABOVE #####
 
 from os import system, name
-import pandas as pd
 def clear():
     if name == 'nt':
         _ = system('cls')
