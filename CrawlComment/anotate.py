@@ -1,11 +1,10 @@
-filename = "encoded_happy.txt"
-fileout = "final_happy.csv"
+filename = "encoded_prank.txt"
+fileout = "final_prank.csv"
 filecache = "cached_" + filename
 default_label = "happy"
 #### CHANGE ABOVE #####
 
 from os import system, name
-import pandas as pd
 def clear():
     if name == 'nt':
         _ = system('cls')
