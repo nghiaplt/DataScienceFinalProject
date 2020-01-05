@@ -1,7 +1,7 @@
-filename = "encoded_happy.txt"
-fileout = "final_happy.csv"
+filename = "encoded_angry.txt"
+fileout = "final_angry.csv"
 filecache = "cached_" + filename
-default_label = "happy"
+default_label = "angry"
 #### CHANGE ABOVE #####
 
 from os import system, name
