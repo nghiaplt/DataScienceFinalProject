@@ -1,9 +1,15 @@
 ﻿# Text To Emotion
-## DataScience Project
-## HCMUS
+## DataScience Project - HCMUS
 #### 1612377 - Tô Hiếu Minh
 #### 1612418 - Phạm Lưu Trọng Nghĩa
-
+|Task|Minh|Nghĩa|
+|---|---|---|
+|Lên ý tưởng| ✓  |✓  |
+|Crawl data, map unknown words|✓||
+|Annotate Data|✓|✓|
+|Evaluation metrics||✓|
+|Build pipeline||✓|
+|Slide + document|✓|✓|
 ### Bài toán
 - Phân loại văn bản theo 4 loại cảm xúc cơ bản (neutral, happy, angry, sad).
 
