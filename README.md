@@ -1,4 +1,8 @@
 ﻿# Text To Emotion
+## DataScience Project
+## HCMUS
+#### 1612377 - Tô Hiếu Minh
+#### 1612418 - Phạm Lưu Trọng Nghĩa
 
 ### Bài toán
 - Phân loại văn bản theo 4 loại cảm xúc cơ bản (neutral, happy, angry, sad).
